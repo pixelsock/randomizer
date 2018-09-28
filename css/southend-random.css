@@ -1195,6 +1195,7 @@ p.step4 {
 .map-box {
     position: relative;
     height: 100vh;
+    max-height: 670px;
     width: 376px;
     top: 0;
     z-index: 999;
@@ -1206,16 +1207,9 @@ p.step4 {
 }
 @media (max-width:479px){
     .map-box {
-    position: relative;
-    height: 100vh;
+max-height: none;
     width: 100%;
-    top: 0;
-    z-index: 999;
-    background: #fff;
-    overflow: hidden;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    
     }}
 
 /*
