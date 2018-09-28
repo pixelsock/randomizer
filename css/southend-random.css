@@ -93,23 +93,34 @@
     
 }
 
+
 .selection_div {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
     border-top: 3px solid #D3AC45;
-    font-family: 'refrigerator_deluxeregular';
-    font-size: 25px;
-    font-style: normal;
+    padding: 19px 0;
+    color: #000;
     font-weight: 900;
+    font-family: 'refrigerator_deluxeregular';
+    font-style: normal;
     text-align: center;
-    letter-spacing: 2px;
     text-transform: uppercase;
-    line-height: 47px;
-    height: 66px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    font-size:25px;
+    
+    
+    
+}
+
+.option {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    font-weight: 900;
+    font-family: 'refrigerator_deluxeregular';
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:25px;
 }
 
 .arrow_left {
@@ -174,19 +185,7 @@
     text-decoration: none;
 }
 
-.option {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #000;
-    font-weight: 900;
-    font-family: 'refrigerator_deluxeregular';
-    font-style: normal;
-}
 
-.option {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
 .result_1.selection_div:after {
     content: '';
@@ -481,7 +480,7 @@
 
 .slotMachineContainer {
     transition: 1s ease-out;
-    margin-top: 123px;
+    margin-top: 115px;
     height: auto;
 }
 
@@ -1126,6 +1125,7 @@ p.step4 {
 .result_2.selection_div,
 .result_3.selection_div {
     background: transparent;
+    padding:0px;
 }
 
 .wizard > .content {
